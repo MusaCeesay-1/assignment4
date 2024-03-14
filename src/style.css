@@ -1,0 +1,69 @@
+.song, .podcast {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    width: 40rem;
+}
+
+.song:hover, .podcast:hover {
+    transform: translateY(-5px);
+}
+
+
+.text-components {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+
+.playlist {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.tiles-background {
+    background-image: url('/src/images/songbackground.jpeg');
+    background-repeat: repeat;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    gap: 15rem;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.status {
+    background-color: blue;
+    width: 250px;
+    height: 300px;
+    color: white;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 6rem;
+    margin-left: 10rem;
+}
+
+.icons {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.icons img {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+}
+

@@ -21,8 +21,8 @@ const App = () => {
     useEffect(() => {
         const fetchData = async () => {
             try {
-                const response = await axios.get('http://localhost:3002/audio');
-                setAudioData(response.data);
+                const response = await axios.get('https://musaceesay-1.github.io/audioData/audio.json');
+                setAudioData(response.data.audio);
 
             } catch (error) {
                 console.error('Error fetching audio data:', error);
